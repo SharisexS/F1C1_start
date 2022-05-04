@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+ 
+/* Navigation */
+
+.header-content {
+  height: 85px;
+  width: 100%;
+  color: #4a4a4a;
+  font-size: 16px;
+  position: fixed;
+  top: 0px;
+  border: 1px solid red;
+  background-color: seashell;
+}
+
+.icon {
+  width: 10px;
+  height: auto;
+}
+
+.desktop-logo {
+  color: red;
+  float: left;
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul li {
+  float: right;
+}
+
+@media only screen and (min-width: 900px) {
+  .mobile a {
+    display: none;
+  }
+}
+
+
+/*background*/
+
+.banner {
+margin-top: 86px;
+height: 670px;
+background-image: url("https://content.codecademy.com/courses/freelance-1/capstone-1/solution/resources/images/banner-landingpage.jpg");
+
+}
+
+.content-center {
+  height: 330px;
+  width: 568px;
+  margin: 0px 100px;
+  background-color: #9DC20A;
+  border: 1px soild #979797;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+}
+
+.header {
+  padding-top: 32px;
+  font-family: "Rubik";
+  color: white;
+  font-size: 50px;
+  line-height: 1.4;
+
+}
+
+.email {
+  padding-top: 12;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: white;
+}
+
+.button {
+  height: 64px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid red;
+  background-color:  #4a4a4a;
+  color: white;
+  justify-content: center;
+  padding: 26 0 56 0;
+  padding-top: 26;
+}
+
+/*features section*/
+
+#features-section {
+  height: 745px;
+  width: 100%;
+  border: 1px solid red;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.feature {
+  border: 1px solid blue;
+  height: 635px;
+  margin-top: 64px;
+  width: auto;
+  display: inline-block; 
+  background-color: white;
+  color: #4a4a4a;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.image-container>img {
+  height: 413px;
+  margin: 32px 32px;
+}
+
+.content>h2 {
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.content>h3 {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/*images container*/
+
+.images-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.contents-center {
+  display: inline-block;
+  background-color: beige;
+  width: 99%;
+  text-align: center;
+}
+
+image
+
+.contents-center>h2 {
+  color: white;
+  opacity: 100%;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  padding-top: 64px;
+}
+
+.contents-container>h3 {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  color: white;
+}
