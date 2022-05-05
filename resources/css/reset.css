@@ -91,12 +91,6 @@ ul li {
   float: right;
 }
 
-@media only screen and (min-width: 900px) {
-  .mobile a {
-    display: none;
-  }
-}
-
 
 /*background*/
 
@@ -155,13 +149,11 @@ display: flex;
 #features-section {
   height: 745px;
   width: 100%;
-  border: 1px solid red;
   background-color: lightgray;
   text-align: center;
 }
 
 .feature {
-  border: 1px solid blue;
   height: 635px;
   margin-top: 64px;
   width: auto;
@@ -207,6 +199,12 @@ display: flex;
   width: 100%;
 }
 
+.image-container {
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+}
+
 .contents-center>h2 {
   color: white;
   opacity: 100%;
@@ -222,6 +220,7 @@ display: flex;
   font-weight: 300;
   line-height: 1.2;
   color: white;
+  padding-bottom: 80px;
 }
 
 /*quote*/
@@ -265,4 +264,17 @@ footer .copyright {
 .location {
   float: right;
   padding-top: 25px;
+}
+
+/*mobile*/
+@media only screen and (min-width: 900px) {
+  .mobile a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .banner {
+    border: 1px solid red;
+  }
 }
